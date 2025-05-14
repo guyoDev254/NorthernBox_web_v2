@@ -222,14 +222,6 @@ function About(props) {
                                             <h6><span>Diram Bora Guyo </span> - Programs and Partnership</h6>
                                         </div>
                                     </div>
-                                    <div className="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-                                        <div className="inner">
-                                            <p>NorthernBox is a team that has the knowledge and unique perspective of technology needs.</p>
-                                        </div>
-                                        <div className="author-info">
-                                            <h6><span>Galgallo Wako </span> - Operations and Technical Lead</h6>
-                                        </div>
-                                    </div>
                                     <div className="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
                                         <div className="inner">
                                             <p>NorthernBox is a team that has the knowledge and unique perspective of technology needs.</p>

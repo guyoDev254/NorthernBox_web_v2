@@ -31,15 +31,7 @@ function CommunityLeadTeam() {
             instagram: '',
             twitter: ''
         },
-        {
-            image: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1686427697/IMG_8704_ayd4hw.jpg',
-            name: 'Galgallo Wako',
-            designation:'Operations and Technical Lead',
-            position: 'Data Scientist',
-            linkedIn: 'https://www.linkedin.com/in/galgallo-wako-b4726b90',
-            instagram: '',
-            twitter: 'https://twitter.com/wakogalgallow'
-        },
+        
         {
             image: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1700783434/mustafa_uzeexe.png',
             name: 'Mustafa Ahmed',
