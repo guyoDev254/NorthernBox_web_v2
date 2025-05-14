@@ -38,7 +38,7 @@ function MemberShipRegistration() {
         console.log("New Member Data: " + JSON.stringify(newMember));
         try {
             // const response = await addDoc(collection(db, 'members'), newMember); 
-            console.log('Member Added Successfully! ', response);
+            console.log('Member Added Successfully! ', newMember);
 
         } catch (e) {
             console.error("Error adding Member: " + e.message);
