@@ -12,7 +12,7 @@ function Navbar(props) {
           <div className="logo w-72">
             <a href="/home">
               <img
-                src="https://res.cloudinary.com/dabfdxbfj/image/upload/v1685890010/NorthernBox_Logo-1-removebg-preview_e4d9et.png"
+                src="https://res.cloudinary.com/dymlg8elg/image/upload/v1726666635/NB-1-removebg-preview_cevjr5.png"
                 alt="NorthernBox Logo"
                 className="w-full h-auto"
               />

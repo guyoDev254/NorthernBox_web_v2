@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
-import {db} from '../../firebase'
+// import {db} from '../../firebase'
 
 function MemberShipRegistration() {
 
@@ -37,7 +37,7 @@ function MemberShipRegistration() {
         };
         console.log("New Member Data: " + JSON.stringify(newMember));
         try {
-            const response = await addDoc(collection(db, 'members'), newMember); 
+            // const response = await addDoc(collection(db, 'members'), newMember); 
             console.log('Member Added Successfully! ', response);
 
         } catch (e) {

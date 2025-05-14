@@ -3,6 +3,7 @@ import AboutComponent from "./AboutComponent";
 import CommunityLeadTeam from "../CommunityLeadTeam/CommunityLeadTeam";
 import Partnerships from "../Partnerships/Partnerships";
 import ProgramAreas from "../ProgramAreas/ProgramAreas";
+import Footer from '../Footer/Footer';
 
 function About(props) {
     var title = 'Our Skilled Team'
@@ -40,8 +41,7 @@ function About(props) {
                         <div className="col-lg-4 col-12">
                             <div className="section-title text-start mt--30 mt_md--5 mt_mobile--5 mb_mobile--10">
                                 <h2 className="title">What We Are</h2>
-                                <p>NBC embraces the diversity, equality, equity, and uniqueness of members, and the
-                                    communities that we serve by committing to be an anti-tribal community.</p>
+                                <p>NorthernBox is a community-driven initiative from Northern Kenya, uniting passionate individuals committed to learning, innovation, and local impact. We bridge the gap between talent and opportunity by creating inclusive spaces for training, mentorship, and collaboration. At our core, we believe in the power of community to drive meaningful change through technology, knowledge, and shared growth.</p>
                                 <div className="service-btn"><a className="btn-transparent rn-btn-dark"
                                                                 href="membership"><span
                                     className="text">Get Started</span></a></div>
@@ -58,61 +58,67 @@ function About(props) {
                                                     <i data-feather="cast"></i>
                                                 </div>
                                                 <div className="content">
-                                                    <h3 className="title">We say YES to PEOPLE</h3>
-                                                    <p>We recognize the unique value and creative potential in everyone. Through programs, exhibits and events we commit to honor and support this potential by inspiring the innovator in everyone.</p>
+                                                    <h3 className="title">We Say YES to PEOPLE</h3>
+                                                    <p>At NorthernBox, we believe every individual holds unique value and untapped potential. Through our programs, events, and creative platforms, we aim to ignite curiosity, nurture innovation, and empower people to shape a brighter future for their communities.</p>
                                                 </div>
+
                                             </div>
                                     </div>
                                 </div>
                                 {/*// <!-- End Single Service  -->*/}
                                 {/*//*/}
                                 {/*// <!-- Start Single Service  -->*/}
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                                {/*<!-- Start Single Service -->*/}
+                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div className="single-service service__style--4">
-                                            <div className="service">
-                                                <div className="icon">
-                                                    <i data-feather="layers"></i>
-                                                </div>
-                                                <div className="content">
-                                                    <h3 className="title">Creativity and Innovation</h3>
-                                                    <p>As a community dedicated to building more complex systems and homegrown solutions that benefit local communities. Our aim is to make sure that Creativity and Innovation spaces are brought to Northern Kenya.</p>
-                                                </div>
-                                            </div>
+                                        <div className="service">
+                                        <div className="icon">
+                                            <i data-feather="layers"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h3 className="title">Creativity & Innovation</h3>
+                                            <p>We’re cultivating a space where bold ideas thrive. Our goal is to spark creativity and drive innovation in Northern Kenya by encouraging the development of local, practical solutions that address real community challenges.</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                </div>
-                                {/*// <!-- End Single Service  -->*/}
-                                {/*//*/}
-                                {/*// <!-- Start Single Service  -->*/}
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    </div>
+
+                                    {/*<!-- End Single Service -->*/}
+
+                                    {/*<!-- Start Single Service -->*/}
+                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div className="single-service service__style--4">
-                                            <div className="service">
-                                                <div className="icon">
-                                                    <i data-feather="users"></i>
-                                                </div>
-                                                <div className="content">
-                                                    <h3 className="title">Collaboration and Team Work</h3>
-                                                    <p>The Community fosters economic development by leading, promoting, and creating educational opportunities through mutually respectful and beneficial partnerships with community organizations.</p>
-                                                </div>
-                                            </div>
+                                        <div className="service">
+                                        <div className="icon">
+                                            <i data-feather="users"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h3 className="title">Collaboration & Teamwork</h3>
+                                            <p>We believe in the power of community. By partnering with local organizations, we create educational and economic opportunities that uplift and empower individuals through shared knowledge and collective effort.</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                </div>
-                                {/*// <!-- End Single Service  -->*/}
-                                {/*//*/}
-                                {/*// <!-- Start Single Service  -->*/}
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    </div>
+
+                                    {/*<!-- End Single Service -->*/}
+
+                                    {/*<!-- Start Single Service -->*/}
+                                    <div className="col-lg-6 col-md-6 col-sm-6 col-12">
                                     <div className="single-service service__style--4">
-                                        
-                                            <div className="service">
-                                                <div className="icon">
-                                                    <i data-feather="monitor"></i>
-                                                </div>
-                                                <div className="content">
-                                                    <h3 className="title">Technology for Northern</h3>
-                                                    <p>We celebrate the power of technology to transform lives. We commit to helping people use technology creatively and ethically through research in crucial sectors where we can leverage technology to build solutions</p>
-                                                </div>
-                                            </div>
+                                        <div className="service">
+                                        <div className="icon">
+                                            <i data-feather="monitor"></i>
+                                        </div>
+                                        <div className="content">
+                                            <h3 className="title">Technology for the North</h3>
+                                            <p>We harness technology to create lasting impact. From research to real-world applications, we promote ethical, innovative tech solutions that improve lives and drive sustainable development across Northern Kenya.</p>
+                                        </div>
+                                        </div>
                                     </div>
-                                </div>
+                                    </div>
+
+                                {/*<!-- End Single Service -->*/}
+
                                 {/*// <!-- End Single Service  -->*/}
 
                             </div>
@@ -178,7 +184,7 @@ function About(props) {
                         {/* <div className="relative"> */}
                             <div className="thumbnail">
                                 <div className="image">
-                                <img src="https://res.cloudinary.com/dabfdxbfj/image/upload/v1708733149/north_lhasio.jpg" alt="Finding Images" style={{width: '65vw', height: '750px', objectFit: 'cover'}} />
+                                <img src="https://res.cloudinary.com/dabfdxbfj/image/upload/v1686430339/IMG_8657_yolykv.jpg" alt="Finding Images" style={{width: '65vw', height: '750px', objectFit: 'cover'}} />
                                 </div>
                                 <div className="absolute inset-0 bg-blue-800 opacity-50 h-full" style={{width: '65vw', height: '750px', objectFit: 'cover'}}></div>
                             </div>
@@ -315,6 +321,7 @@ function About(props) {
                 {/*//*/}
                 {/*// <!-- Start Brand Area -->*/}
                 <Partnerships />
+                <Footer />
                 {/*// <!-- End Brand Area -->*/}
                 {/*//*/}
 

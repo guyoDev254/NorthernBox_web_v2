@@ -10,33 +10,29 @@ import {
 const items = [
   {
     src: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1705077199/image1_0_tcmip9.jpg',
-    altText: '_Connect_',
-    caption: '_Connect_',
-    description: 'Join our community that values continuous learning and mutual inspiration. NorthernBox is your hub for knowledge expansion and personal growth.',
+    altText: 'Connect',
+    caption: 'Connect',
+    description: 'We are a collective of passionate individuals from Northern Kenya, connecting learners, mentors, and communities to ignite change and build a shared future.',
     key: 1,
   },
   {
     src: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1700783274/create_me_an_im_1_pvqmnp.png',
-    altText: '_Learn_',
-    caption: '_Learn_',
-    description: 'Embark on a journey of continuous learning. NorthernBox provides opportunities for you to expand your knowledge and skills.',
+    altText: 'Create',
+    caption: 'Create',
+    description: 'Through hands-on training and mentorship, we empower local talent to create innovative solutions that address real challenges in our region.',
     key: 2,
   },
   {
     src: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1700783788/I_am_from_north_0_wjmw3a.png',
-    altText: 'Inspire',
-    caption: 'Inspire',
-    description: 'Unleash your potential. NorthernBox is here to inspire you to pursue your passions and achieve your fullest potential.',
+    altText: 'Learn',
+    caption: 'Learn',
+    description: 'We foster a culture of continuous learning by offering opportunities for everyone—from beginners to experts—to grow and lead in STEM and beyond.',
     key: 3,
   },
-  // {
-  //   src: 'https://res.cloudinary.com/dabfdxbfj/image/upload/v1700783788/I_am_from_north_0_wjmw3a.png',
-  //   altText: 'Innovate',
-  //   caption: 'Innovate',
-  //   description: 'Fuel innovation and creativity. NorthernBox believes in the power of our community to develop groundbreaking solutions for local challenges.',
-  //   key: 3,
-  // },
 ];
+
+
+
 
 
 function Hero(props) {
